@@ -31,6 +31,9 @@ dependencies {
     implementation "com.android.support:recyclerview-v7:$android_support_verion"
     implementation 'com.android.support.constraint:constraint-layout:1.0.2'
 
+    implementation 'com.github.bumptech.glide:glide:4.1.1'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.1.1'
+
     implementation 'com.mikepenz:fastadapter-commons:2.6.3@aar'
     compile('com.mikepenz:fastadapter:2.6.3@aar') {
         transitive = true
