@@ -16,6 +16,9 @@ buildscript {
 }
 
 ext.android_support_verion = '26.1.0'
+ext.rxBinding_version = '2.0.0'
+ext.rxJava_version = '2.1.4'
+ext.rxAndroid_version = '2.0.1'
 
 allprojects {
     repositories {
